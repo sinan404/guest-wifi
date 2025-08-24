@@ -1,0 +1,86 @@
+
+    body{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 100px;
+       z-index: 0;
+    }
+    .login-container{
+        background-color: rgb(255, 255, 255);
+        width: 550px;
+        height: 550px;
+        display: flex;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 0 50px gray;
+       
+
+        
+    }
+    .input-containers{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-left: 0px;
+        width: 500px;
+    }
+    .username-text,
+    .password-text{
+        font-family:Roboto Mono,arial;
+        padding-left: 5px;
+        padding-right:20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .username-input,
+    .password-input{
+        height: 50px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(20, 91, 205);
+        border-width: 3px;
+    }
+    
+        input::placeholder {
+        color: rgb(167, 167, 167);
+        font-size: 14px;
+        padding-left: 10px;
+}
+
+    .username-box,
+    .password-box
+    {
+        display: grid; 
+        grid-template-columns:100px 350px ; 
+        margin-left: 0px;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-button,
+    .create-button{
+        background-color: rgb(0, 0, 0);
+        margin-bottom: 30px;
+        width: 270px;
+        height: 60px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-style:Oswald, arial;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .title{
+        font-weight: 800;
+        font-size: 30px;
+        font-family: oswald;
+        width: 310px;
+        height: 125px;
+    }
